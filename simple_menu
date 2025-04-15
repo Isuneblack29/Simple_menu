@@ -1,0 +1,12 @@
+print(' OPÇÃO \n 1 ESCREVA CAIO\n 2 ESCREVA GUSTAVO\n 3 ESCREVA LORENA')
+
+opcao = input('Escolha um das alternativas abaixo: ')
+
+if opcao == '1':
+    print('Parabéns Você Selecionou CAIO')
+elif opcao == '2':
+    print('Parabéns Você Selecionou GUSTAVO')
+elif opcao == '3':
+    print('Parabéns Você Selecionou LORENA')
+else:
+    print('!VOCÊ NÃO SELECIONOU NENHUMA DAS 3 ALTERNATIVA ESCREVA NOVAMENTE!')
